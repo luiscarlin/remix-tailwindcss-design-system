@@ -1,26 +1,40 @@
-# Welcome to Remix!
+# Remix Tailwindcss Design System
 
-- 📖 [Remix docs](https://remix.run/docs)
+## Setup
+
+```bash
+# install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+git clone git@github.com:luiscarlin/remix-tailwindcss-design-system.git
+cd remix-tailwindcss-design-system
+
+# use correct version of node
+nvm install
+
+# install dependencies
+npm install
+```
 
 ## Development
 
-Run the dev server:
+Run the dev server
 
-```shellscript
+```bash
 npm run dev
 ```
 
 ## Deployment
 
-First, build your app for production:
+First, build your app for production
 
-```sh
+```bash
 npm run build
 ```
 
-Then run the app in production mode:
+Then run the app in production mode
 
-```sh
+```bash
 npm start
 ```
 
@@ -35,6 +49,10 @@ Make sure to deploy the output of `npm run build`
 - `build/server`
 - `build/client`
 
-## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+## References
+
+- [Remix docs](https://remix.run/docs)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev)
+
