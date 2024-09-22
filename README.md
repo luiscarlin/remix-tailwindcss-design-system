@@ -12,8 +12,11 @@ cd remix-tailwindcss-design-system
 # use correct version of node
 nvm install
 
+# use pnpm
+corepack enable pnpm
+
 # install dependencies
-npm install
+pnpm install
 ```
 
 ## Development
@@ -21,7 +24,7 @@ npm install
 Run the dev server
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## Deployment
@@ -29,13 +32,13 @@ npm run dev
 First, build your app for production
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Then run the app in production mode
 
 ```bash
-npm start
+pnpm start
 ```
 
 Now you'll need to pick a host to deploy it to.
